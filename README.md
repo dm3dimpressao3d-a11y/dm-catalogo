@@ -2,7 +2,7 @@
 
 Catálogo online para mandar no grupo do WhatsApp.
 
-- **Link do cliente** (`seu-site.vercel.app`): só visualização. O cliente vê os produtos, abre as fotos e clica em **Comprar agora**, que abre o WhatsApp da DM com o nome e o valor do produto já escritos.
+- **Link do cliente** (`seu-site.vercel.app`): só visualização. O cliente vê os produtos, abre as fotos e clica em **Chamar no WhatsApp**, que abre o WhatsApp da DM com o nome e o valor do produto já escritos. O catálogo é só uma vitrine: a venda é feita na conversa do WhatsApp.
 - **Painel** (`seu-site.vercel.app/admin`): protegido por e-mail e senha. Funciona no celular e no computador. Dá para cadastrar produtos (até 3 fotos, valor, descrição, categoria), ocultar, marcar como esgotado ou destaque, e configurar o número de WhatsApp.
 
 **Como funciona:** o site é feito só de arquivos simples (HTML, CSS e JavaScript), sem etapa de build. O **GitHub** guarda os arquivos, a **Vercel** publica o site e o **Supabase** guarda os produtos, as fotos e a senha de quem edita.

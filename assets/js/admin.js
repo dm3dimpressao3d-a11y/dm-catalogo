@@ -479,7 +479,7 @@
 
       <div class="panel">
         <h3>Link do catálogo para os clientes</h3>
-        <p>Este é o link que você manda no grupo do WhatsApp. Quem abrir só consegue ver e comprar — não consegue editar nada.</p>
+        <p>Este é o link que você manda no grupo do WhatsApp. Quem abrir só consegue ver os produtos e chamar vocês no WhatsApp — não consegue editar nada.</p>
         <div class="linkbox">
           <input class="input" id="s-link" readonly value="${esc(DM.productUrl())}" aria-label="Link do catálogo" onfocus="this.select()">
           <button class="btn btn-dark" type="button" data-act="copy-link">Copiar</button>
@@ -489,7 +489,7 @@
       <form id="s-form" novalidate>
         <div class="panel">
           <h3>WhatsApp de vendas</h3>
-          <p>O botão “Comprar agora” abre uma conversa com este número, já com o nome e o valor do produto.</p>
+          <p>O botão “Chamar no WhatsApp” abre uma conversa com este número, já com o nome e o valor do produto.</p>
           <label class="field"><span class="label">Número com DDD</span>
             <input class="input" id="s-wa" inputmode="tel" autocomplete="off" placeholder="(11) 99999-9999" value="${esc(s.whatsapp ? formatPhone(s.whatsapp) : '')}"></label>
           <label class="field" style="margin-bottom:0"><span class="label">Mensagem pronta</span>

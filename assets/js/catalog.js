@@ -127,7 +127,7 @@
       p.price == null
         ? '<div class="detail-price ask">Consulte o valor</div>'
         : `<div class="detail-price">${esc(formatPrice(p.price))}</div>`;
-    const buyLabel = p.sold_out ? 'Perguntar disponibilidade' : 'Comprar agora';
+    const buyLabel = p.sold_out ? 'Perguntar disponibilidade' : 'Chamar no WhatsApp';
     const buyBtn = wa
       ? `<a class="btn btn-wa" href="${esc(wa)}" target="_blank" rel="noopener" data-buy>${WA_ICON}${buyLabel}</a>`
       : '<span class="btn is-disabled">Em breve</span>';
